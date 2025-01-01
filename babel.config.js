@@ -2,6 +2,6 @@ module.exports = function (api) {
   api.cache(true);
   return {
     presets: ["babel-preset-expo"],
-    plugins: ["nativewind/babel"], // Add plugins here (e.g., NativeWind for Tailwind CSS)
+    // plugins: ["nativewind/babel"], // Add plugins here (e.g., NativeWind for Tailwind CSS)
   };
 };
